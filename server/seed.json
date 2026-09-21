@@ -1,0 +1,848 @@
+{
+  "venture": {
+    "name": "Money-Mitra",
+    "pitch": "Make money from existing money",
+    "status": "Pending approval"
+  },
+  "overview": {
+    "mission": "Help salaried Indians put idle savings to work without learning finance.",
+    "problem": "Money sits idle in savings accounts earning below inflation. People know they are losing value but do not trust or understand the alternatives.",
+    "audience": "Salaried professionals aged 25-40 in Indian metros with idle balances in savings accounts.",
+    "solution": "A guided layer over existing accounts that moves idle balances into better-yielding, low-risk instruments with plain-language explanations.",
+    "value": "Better returns on money you already have, without moving banks, picking funds, or learning jargon.",
+    "direction": "Narrowing to one segment and proving willingness to pay before locking pricing. Idea still pending mentor approval.",
+    "updatedBy": "Srija Chittaluru",
+    "updatedAt": "2026-09-16T09:40"
+  },
+  "feedback": [
+    {
+      "id": "f1",
+      "text": "Users don't immediately understand why this is better than existing alternatives.",
+      "source": "Internal review",
+      "date": "2026-09-15",
+      "status": "Open"
+    },
+    {
+      "id": "f2",
+      "text": "Mentor: the sizing needs a bottom-up build, not a top-down percentage of the market.",
+      "source": "Mentor check-in",
+      "date": "2026-09-15",
+      "status": "Open"
+    },
+    {
+      "id": "f3",
+      "text": "Interviewees keep asking where their money physically sits — address custody on slide 4.",
+      "source": "Customer interviews",
+      "date": "2026-09-14",
+      "status": "Open"
+    },
+    {
+      "id": "f4",
+      "text": "Deck opening was too slow in the first read-through. Lead with the problem.",
+      "source": "Srija Chittaluru",
+      "date": "2026-09-12",
+      "status": "Done"
+    }
+  ],
+  "updates": [
+    {
+      "id": "u1",
+      "author": "m7",
+      "text": "Finished 4 of 15 interviews. Trust, not returns, is the recurring objection.",
+      "status": "On track",
+      "ts": "2026-09-16T18:20"
+    },
+    {
+      "id": "u2",
+      "author": "m3",
+      "text": "Cannot close unit economics until growth lands the channel mix.",
+      "status": "Blocked",
+      "ts": "2026-09-16T11:05"
+    },
+    {
+      "id": "u3",
+      "author": "m2",
+      "text": "Approval package submitted through the portal.",
+      "status": "Completed",
+      "ts": "2026-09-16T13:45"
+    }
+  ],
+  "presentation": "2026-10-12T10:00",
+  "currentUser": "m4",
+  "members": [
+    {
+      "id": "m1",
+      "name": "Srija Chittaluru",
+      "role": "CEO",
+      "responsibilities": [
+        "Vision & narrative",
+        "Pitch delivery",
+        "Judge Q&A"
+      ],
+      "notes": "Owns the story arc end to end. Wants the final deck locked 48h before pitch.",
+      "status": "Deep work"
+    },
+    {
+      "id": "m4",
+      "name": "Aditya Verma",
+      "role": "CGO",
+      "responsibilities": [
+        "Growth strategy",
+        "GTM plan",
+        "Market sizing"
+      ],
+      "notes": "Owns TAM/SAM/SOM and the acquisition narrative in the deck.",
+      "status": "Available"
+    },
+    {
+      "id": "m2",
+      "name": "Dhiksha M",
+      "role": "COO",
+      "responsibilities": [
+        "Execution",
+        "Timeline",
+        "Standups"
+      ],
+      "notes": "Runs the daily standup at 9:15. Escalates blockers the same day.",
+      "status": "Available"
+    },
+    {
+      "id": "m3",
+      "name": "Swarna Nagasri Geethanjali",
+      "role": "CFO",
+      "responsibilities": [
+        "Financial model",
+        "Unit economics",
+        "Funding ask"
+      ],
+      "notes": "Model v2 needs the revised CAC from growth before it can be finalised.",
+      "status": "Deep work"
+    },
+    {
+      "id": "m5",
+      "name": "Sakshi Borage",
+      "role": "CRO",
+      "responsibilities": [
+        "Revenue model",
+        "Pricing",
+        "Partnerships"
+      ],
+      "notes": "Testing two pricing ladders against the survey panel.",
+      "status": "In meetings"
+    },
+    {
+      "id": "m6",
+      "name": "Almas Shaikh",
+      "role": "CAIO",
+      "responsibilities": [
+        "AI architecture",
+        "Product demo",
+        "Tech feasibility"
+      ],
+      "notes": "Demo must run offline on the presentation laptop. No live API calls on stage.",
+      "status": "Deep work"
+    },
+    {
+      "id": "m7",
+      "name": "Kushal Chaudhari",
+      "role": "CRO",
+      "responsibilities": [
+        "Customer research",
+        "Interviews",
+        "Competitor scan"
+      ],
+      "notes": "Second CRO on the team, focused on customer-side revenue evidence.",
+      "status": "Available"
+    }
+  ],
+  "phases": [
+    {
+      "id": "p1",
+      "name": "Ideation",
+      "start": "2026-09-08",
+      "end": "2026-09-16",
+      "status": "Done",
+      "notes": ""
+    },
+    {
+      "id": "p2",
+      "name": "Idea Approval",
+      "start": "2026-09-16",
+      "end": "2026-09-21",
+      "status": "Active",
+      "notes": ""
+    },
+    {
+      "id": "p3",
+      "name": "Research & Validation",
+      "start": "2026-09-21",
+      "end": "2026-09-29",
+      "status": "Upcoming",
+      "notes": ""
+    },
+    {
+      "id": "p4",
+      "name": "Build",
+      "start": "2026-09-29",
+      "end": "2026-10-05",
+      "status": "Upcoming",
+      "notes": ""
+    },
+    {
+      "id": "p5",
+      "name": "Pitch Prep",
+      "start": "2026-10-05",
+      "end": "2026-10-09",
+      "status": "Upcoming",
+      "notes": ""
+    },
+    {
+      "id": "p6",
+      "name": "Dry Runs",
+      "start": "2026-10-09",
+      "end": "2026-10-11",
+      "status": "Upcoming",
+      "notes": ""
+    },
+    {
+      "id": "p7",
+      "name": "Presentation",
+      "start": "2026-10-12",
+      "end": "2026-10-12",
+      "status": "Upcoming",
+      "notes": ""
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "Lock Money-Mitra problem statement",
+      "desc": "One paragraph, no jargon, that survives the judge question \"who exactly is hurting today?\".",
+      "ownerId": "m1",
+      "collaborators": [
+        "m4"
+      ],
+      "status": "Review",
+      "priority": "High",
+      "start": "2026-09-14",
+      "due": "2026-09-17",
+      "deps": [],
+      "deliverableId": "d1",
+      "notes": "",
+      "activity": [
+        "Created 15 Sep · Dhiksha M"
+      ],
+      "lastEditedBy": "Dhiksha M"
+    },
+    {
+      "id": "t2",
+      "title": "Submit idea for mentor approval",
+      "desc": "Package the one-pager and submit through the Odyssey portal before the approval window closes.",
+      "ownerId": "m2",
+      "collaborators": [
+        "m1"
+      ],
+      "status": "In Progress",
+      "priority": "High",
+      "start": "2026-09-16",
+      "due": "2026-09-18",
+      "deps": [
+        "t1"
+      ],
+      "deliverableId": null,
+      "notes": "",
+      "activity": [
+        "Created 15 Sep · Dhiksha M"
+      ],
+      "lastEditedBy": "Dhiksha M"
+    },
+    {
+      "id": "t3",
+      "title": "TAM / SAM / SOM with cited sources",
+      "desc": "Bottom-up sizing for Indian retail investors holding idle savings balances.",
+      "ownerId": "m4",
+      "collaborators": [
+        "m3"
+      ],
+      "status": "In Progress",
+      "priority": "High",
+      "start": "2026-09-15",
+      "due": "2026-09-19",
+      "deps": [],
+      "deliverableId": "d3",
+      "notes": "",
+      "activity": [
+        "Created 15 Sep · Dhiksha M"
+      ],
+      "lastEditedBy": "Dhiksha M"
+    },
+    {
+      "id": "t4",
+      "title": "Run 15 customer interviews",
+      "desc": "Target salaried 25-40 with idle savings. Record objections verbatim.",
+      "ownerId": "m7",
+      "collaborators": [
+        "m5"
+      ],
+      "status": "In Progress",
+      "priority": "High",
+      "start": "2026-09-14",
+      "due": "2026-09-22",
+      "deps": [],
+      "deliverableId": "d5",
+      "notes": "",
+      "activity": [
+        "Created 15 Sep · Dhiksha M"
+      ],
+      "lastEditedBy": "Dhiksha M"
+    },
+    {
+      "id": "t5",
+      "title": "Competitor scan: 8 fintech products",
+      "desc": "Feature, fee and trust comparison. Note where each one loses users.",
+      "ownerId": "m7",
+      "collaborators": [],
+      "status": "Not Started",
+      "priority": "Medium",
+      "start": "2026-09-21",
+      "due": "2026-09-24",
+      "deps": [],
+      "deliverableId": "d5",
+      "notes": "",
+      "activity": [
+        "Created 15 Sep · Dhiksha M"
+      ],
+      "lastEditedBy": "Dhiksha M"
+    },
+    {
+      "id": "t6",
+      "title": "Draft revenue model v1",
+      "desc": "Take-rate vs subscription. Show which one survives at 10k users.",
+      "ownerId": "m5",
+      "collaborators": [
+        "m3"
+      ],
+      "status": "Not Started",
+      "priority": "High",
+      "start": "2026-09-22",
+      "due": "2026-09-26",
+      "deps": [
+        "t4"
+      ],
+      "deliverableId": "d6",
+      "notes": "",
+      "activity": [
+        "Created 15 Sep · Dhiksha M"
+      ],
+      "lastEditedBy": "Dhiksha M"
+    },
+    {
+      "id": "t7",
+      "title": "Unit economics: CAC & payback",
+      "desc": "Needs final acquisition-channel mix from growth before numbers can be trusted.",
+      "ownerId": "m3",
+      "collaborators": [
+        "m4"
+      ],
+      "status": "Blocked",
+      "priority": "High",
+      "start": "2026-09-18",
+      "due": "2026-09-25",
+      "deps": [
+        "t3"
+      ],
+      "deliverableId": "d2",
+      "notes": "",
+      "activity": [
+        "Created 15 Sep · Dhiksha M"
+      ],
+      "lastEditedBy": "Dhiksha M"
+    },
+    {
+      "id": "t8",
+      "title": "AI feasibility note",
+      "desc": "What the recommendation engine can honestly do by Oct 5, and what we will not claim.",
+      "ownerId": "m6",
+      "collaborators": [],
+      "status": "Review",
+      "priority": "Medium",
+      "start": "2026-09-13",
+      "due": "2026-09-17",
+      "deps": [],
+      "deliverableId": "d4",
+      "notes": "",
+      "activity": [
+        "Created 15 Sep · Dhiksha M"
+      ],
+      "lastEditedBy": "Dhiksha M"
+    },
+    {
+      "id": "t9",
+      "title": "Demo scope freeze",
+      "desc": "Pick the single 90 second flow. Everything else gets cut.",
+      "ownerId": "m6",
+      "collaborators": [
+        "m1"
+      ],
+      "status": "Not Started",
+      "priority": "High",
+      "start": "2026-09-29",
+      "due": "2026-10-01",
+      "deps": [
+        "t8"
+      ],
+      "deliverableId": "d4",
+      "notes": "",
+      "activity": [
+        "Created 15 Sep · Dhiksha M"
+      ],
+      "lastEditedBy": "Dhiksha M"
+    },
+    {
+      "id": "t10",
+      "title": "GTM plan: first 1,000 users",
+      "desc": "Channel by channel with cost per channel and a two-week test plan.",
+      "ownerId": "m4",
+      "collaborators": [
+        "m5"
+      ],
+      "status": "Not Started",
+      "priority": "High",
+      "start": "2026-09-24",
+      "due": "2026-09-30",
+      "deps": [
+        "t3"
+      ],
+      "deliverableId": "d3",
+      "notes": "",
+      "activity": [
+        "Created 15 Sep · Dhiksha M"
+      ],
+      "lastEditedBy": "Dhiksha M"
+    },
+    {
+      "id": "t11",
+      "title": "Deck skeleton (12 slides)",
+      "desc": "Slide titles only. Each slide gets one sentence it must prove.",
+      "ownerId": "m1",
+      "collaborators": [
+        "m2"
+      ],
+      "status": "Not Started",
+      "priority": "Medium",
+      "start": "2026-10-01",
+      "due": "2026-10-04",
+      "deps": [
+        "t6",
+        "t10"
+      ],
+      "deliverableId": "d1",
+      "notes": "",
+      "activity": [
+        "Created 15 Sep · Dhiksha M"
+      ],
+      "lastEditedBy": "Dhiksha M"
+    },
+    {
+      "id": "t12",
+      "title": "Financial model v2 review",
+      "desc": "CFO walks the team through assumptions line by line.",
+      "ownerId": "m3",
+      "collaborators": [
+        "m1",
+        "m5"
+      ],
+      "status": "Not Started",
+      "priority": "Medium",
+      "start": "2026-10-02",
+      "due": "2026-10-05",
+      "deps": [
+        "t7"
+      ],
+      "deliverableId": "d2",
+      "notes": "",
+      "activity": [
+        "Created 15 Sep · Dhiksha M"
+      ],
+      "lastEditedBy": "Dhiksha M"
+    },
+    {
+      "id": "t13",
+      "title": "Dry run 1 with full deck",
+      "desc": "Timed, no notes, judges played by two members.",
+      "ownerId": "m2",
+      "collaborators": [
+        "m1",
+        "m4",
+        "m6"
+      ],
+      "status": "Not Started",
+      "priority": "High",
+      "start": "2026-10-09",
+      "due": "2026-10-09",
+      "deps": [
+        "t11"
+      ],
+      "deliverableId": "d1",
+      "notes": "",
+      "activity": [
+        "Created 15 Sep · Dhiksha M"
+      ],
+      "lastEditedBy": "Dhiksha M"
+    },
+    {
+      "id": "t14",
+      "title": "Q&A prep: 20 hardest questions",
+      "desc": "Write the answer we would hate to be asked, then answer it.",
+      "ownerId": "m1",
+      "collaborators": [
+        "m3",
+        "m7"
+      ],
+      "status": "Not Started",
+      "priority": "Medium",
+      "start": "2026-10-07",
+      "due": "2026-10-10",
+      "deps": [],
+      "deliverableId": "d1",
+      "notes": "",
+      "activity": [
+        "Created 15 Sep · Dhiksha M"
+      ],
+      "lastEditedBy": "Dhiksha M"
+    },
+    {
+      "id": "t15",
+      "title": "Weekly progress summary to mentor",
+      "desc": "Two paragraphs: what moved, what is stuck.",
+      "ownerId": "m2",
+      "collaborators": [],
+      "status": "Done",
+      "priority": "Low",
+      "start": "2026-09-12",
+      "due": "2026-09-15",
+      "deps": [],
+      "deliverableId": null,
+      "notes": "",
+      "activity": [
+        "Created 15 Sep · Dhiksha M"
+      ],
+      "lastEditedBy": "Dhiksha M"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "s1",
+      "title": "Idea approved by mentor",
+      "date": "2026-09-21",
+      "ownerId": "m1",
+      "phaseId": "p2",
+      "status": "Upcoming",
+      "notes": ""
+    },
+    {
+      "id": "s2",
+      "title": "Validation evidence complete",
+      "date": "2026-09-29",
+      "ownerId": "m7",
+      "phaseId": "p3",
+      "status": "Upcoming",
+      "notes": ""
+    },
+    {
+      "id": "s3",
+      "title": "Financial model locked",
+      "date": "2026-10-05",
+      "ownerId": "m3",
+      "phaseId": "p4",
+      "status": "Upcoming",
+      "notes": ""
+    },
+    {
+      "id": "s4",
+      "title": "Deck v1 complete",
+      "date": "2026-10-08",
+      "ownerId": "m1",
+      "phaseId": "p5",
+      "status": "Upcoming",
+      "notes": ""
+    },
+    {
+      "id": "s5",
+      "title": "Final dry run passed",
+      "date": "2026-10-11",
+      "ownerId": "m2",
+      "phaseId": "p6",
+      "status": "Upcoming",
+      "notes": ""
+    },
+    {
+      "id": "s6",
+      "title": "Shark Tank presentation",
+      "date": "2026-10-12",
+      "ownerId": "m1",
+      "phaseId": "p7",
+      "status": "Upcoming",
+      "notes": ""
+    }
+  ],
+  "meetings": [
+    {
+      "id": "g1",
+      "title": "Kickoff & role split",
+      "date": "2026-09-10",
+      "time": "18:30",
+      "attendees": [
+        "m1",
+        "m2",
+        "m3",
+        "m4",
+        "m5",
+        "m6",
+        "m7"
+      ],
+      "agenda": "Roles, cadence, idea shortlist",
+      "notes": "Agreed on daily 9:15 standup and a Thursday deep-dive.",
+      "decisions": "Money-Mitra selected over two alternatives.",
+      "actionItems": "Each C-level writes their own responsibility list by Friday.",
+      "followUps": ""
+    },
+    {
+      "id": "g2",
+      "title": "Idea pressure test",
+      "date": "2026-09-15",
+      "time": "19:00",
+      "attendees": [
+        "m1",
+        "m2",
+        "m4",
+        "m7"
+      ],
+      "agenda": "Problem statement, who is hurting, why now",
+      "notes": "Problem statement still too broad. Narrowed to salaried 25-40 with idle savings.",
+      "decisions": "Narrow the target segment before sizing.",
+      "actionItems": "Aditya to redo sizing bottom-up; Kushal to add 5 more interviews.",
+      "followUps": ""
+    },
+    {
+      "id": "g3",
+      "title": "Standup",
+      "date": "2026-09-16",
+      "time": "09:15",
+      "attendees": [
+        "m1",
+        "m2",
+        "m3",
+        "m4",
+        "m5",
+        "m6",
+        "m7"
+      ],
+      "agenda": "Blockers before approval submission",
+      "notes": "CFO blocked on CAC. Demo scope still open.",
+      "decisions": "Submit for approval today even with model pending.",
+      "actionItems": "Dhiksha submits portal form by 14:00.",
+      "followUps": ""
+    }
+  ],
+  "decisions": [
+    {
+      "id": "x1",
+      "title": "Go with Money-Mitra as the venture",
+      "date": "2026-09-10",
+      "decidedBy": "m1",
+      "reasoning": "Strongest overlap between the team's finance and AI skills and a problem we can evidence with interviews in two weeks.",
+      "alternatives": "Campus logistics marketplace; AI study planner.",
+      "consequences": "Commits research and demo effort to fintech. Regulatory questions become a standing risk.",
+      "status": "Agreed"
+    },
+    {
+      "id": "x2",
+      "title": "Narrow target to salaried 25-40 with idle savings",
+      "date": "2026-09-15",
+      "decidedBy": "m4",
+      "reasoning": "Broad \"everyone with a bank account\" framing collapsed under questioning. This segment is reachable and has a measurable idle balance.",
+      "alternatives": "Students; small business owners.",
+      "consequences": "Sizing and interview script both get rewritten. Interview count resets to 15.",
+      "status": "Agreed"
+    },
+    {
+      "id": "x3",
+      "title": "No live API calls during the demo",
+      "date": "2026-09-16",
+      "decidedBy": "m6",
+      "reasoning": "Venue wifi is unreliable and a failed call on stage costs more than a slightly less impressive demo.",
+      "alternatives": "Live demo with mobile hotspot fallback.",
+      "consequences": "Demo must be pre-seeded and run offline. Adds two days of build work.",
+      "status": "Agreed"
+    },
+    {
+      "id": "x4",
+      "title": "Hold pricing decision until interviews close",
+      "date": "2026-09-16",
+      "decidedBy": "m5",
+      "reasoning": "Pricing set before willingness-to-pay evidence would be guesswork the judges will catch.",
+      "alternatives": "Pick take-rate now and defend it.",
+      "consequences": "Revenue model v1 slips to Sep 26. Deck skeleton waits on it.",
+      "status": "Proposed"
+    }
+  ],
+  "logs": [
+    {
+      "id": "l1",
+      "date": "2026-09-16",
+      "author": "m2",
+      "happened": "Approval package submitted. CFO still blocked on CAC.",
+      "meetings": "Standup at 9:15 with all seven. Portal submission completed at 13:40.",
+      "progress": "Idea submitted for mentor approval. Sizing rewrite underway.",
+      "problems": "CFO cannot close unit economics until growth lands the channel mix. Demo scope still undefined.",
+      "newInfo": "Mentor feedback window is 3 working days, not 1 — approval milestone moves to Sep 21.",
+      "notes": "",
+      "created": 2,
+      "completed": 1
+    },
+    {
+      "id": "l2",
+      "date": "2026-09-15",
+      "author": "m4",
+      "happened": "Idea pressure test exposed a soft problem statement.",
+      "meetings": "Idea pressure test, 19:00, four attendees.",
+      "progress": "Target segment narrowed to salaried 25-40 with idle savings.",
+      "problems": "Old sizing work is unusable. Interview script needs rewriting.",
+      "newInfo": "Two competitors already target this segment on trust, not returns.",
+      "notes": "",
+      "created": 3,
+      "completed": 1
+    },
+    {
+      "id": "l3",
+      "date": "2026-09-14",
+      "author": "m7",
+      "happened": "First interviews run. Objection pattern is clearly trust, not returns.",
+      "meetings": "No formal meeting. Two async reviews.",
+      "progress": "Interview guide v2 approved by CEO.",
+      "problems": "Recruiting interviewees is slower than planned — 4 of 15 done.",
+      "newInfo": "Every interviewee asked \"where does my money actually sit?\" unprompted.",
+      "notes": "",
+      "created": 2,
+      "completed": 0
+    },
+    {
+      "id": "l4",
+      "date": "2026-09-12",
+      "author": "m2",
+      "happened": "Responsibilities locked for all seven roles.",
+      "meetings": "Deep dive, 90 minutes.",
+      "progress": "Two CRO roles split: Sakshi on revenue model, Kushal on customer evidence.",
+      "problems": "Overlap between the two CRO scopes caused duplicate work in week one.",
+      "newInfo": "Odyssey rubric weights evidence higher than polish.",
+      "notes": "",
+      "created": 4,
+      "completed": 2
+    }
+  ],
+  "deliverables": [
+    {
+      "id": "d1",
+      "name": "Pitch Deck",
+      "ownerId": "m1",
+      "due": "2026-10-09",
+      "status": "Drafting",
+      "review": "Team review",
+      "version": 1,
+      "notes": "Master narrative deck, 12 slides max.",
+      "history": [
+        "v1 drafted · 2026-10-09"
+      ]
+    },
+    {
+      "id": "d2",
+      "name": "Financial Model",
+      "ownerId": "m3",
+      "due": "2026-10-02",
+      "status": "Drafting",
+      "review": "Not reviewed",
+      "version": 2,
+      "notes": "Three-year projection with unit economics tab.",
+      "history": [
+        "v2 drafted · 2026-10-02"
+      ]
+    },
+    {
+      "id": "d3",
+      "name": "Market Sizing Brief",
+      "ownerId": "m4",
+      "due": "2026-09-26",
+      "status": "In Review",
+      "review": "CEO review",
+      "version": 2,
+      "notes": "TAM/SAM/SOM with sources cited on every figure.",
+      "history": [
+        "v2 drafted · 2026-09-26"
+      ]
+    },
+    {
+      "id": "d4",
+      "name": "Product Demo",
+      "ownerId": "m6",
+      "due": "2026-10-07",
+      "status": "Not Started",
+      "review": "Not reviewed",
+      "version": 1,
+      "notes": "Offline build, 90 second happy path.",
+      "history": [
+        "v1 drafted · 2026-10-07"
+      ]
+    },
+    {
+      "id": "d5",
+      "name": "Customer Research Pack",
+      "ownerId": "m7",
+      "due": "2026-09-28",
+      "status": "Drafting",
+      "review": "Not reviewed",
+      "version": 1,
+      "notes": "15 interviews, coded into three themes.",
+      "history": [
+        "v1 drafted · 2026-09-28"
+      ]
+    },
+    {
+      "id": "d6",
+      "name": "Revenue & Pricing Model",
+      "ownerId": "m5",
+      "due": "2026-10-03",
+      "status": "Not Started",
+      "review": "Not reviewed",
+      "version": 1,
+      "notes": "Two pricing ladders with take-rate assumptions.",
+      "history": [
+        "v1 drafted · 2026-10-03"
+      ]
+    }
+  ],
+  "activity": [
+    {
+      "text": "Dhiksha M submitted the idea for mentor approval",
+      "ts": "2026-09-16T13:40"
+    },
+    {
+      "text": "Almas Shaikh logged decision: no live API calls during the demo",
+      "ts": "2026-09-16T10:20"
+    },
+    {
+      "text": "Swarna Nagasri Geethanjali marked Unit economics: CAC & payback as Blocked",
+      "ts": "2026-09-16T09:30"
+    },
+    {
+      "text": "Aditya Verma narrowed the target segment to salaried 25-40",
+      "ts": "2026-09-15T20:10"
+    },
+    {
+      "text": "Kushal Chaudhari added 4 customer interviews to the research pack",
+      "ts": "2026-09-14T18:05"
+    }
+  ],
+  "todayOverride": null,
+  "savedAt": null
+}
